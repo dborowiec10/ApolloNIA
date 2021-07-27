@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <input type="button" value="Go to options" id="go-to-options">
+    <h1 class="engineTitle">
+      <span class="blue">A</span>
+      <span class="red">p</span>
+      <span class="yellow">o</span>
+      <span class="blue">l</span>
+      <span class="green">l</span>
+      <span class="yellow">o</span>
+      <span class="red">N</span>
+      <span class="blue">I</span>
+      <span class="green">A</span>
+    </h1>
+
+    <form id="frm1">
+      <p style="font-weight: bold;">Title:</p>
+      <input class="form_input" type="text" name="title" id="form_title"><br>
+      <p style="font-weight: bold;">Link:</p>
+      <input class="form_input" type="text" name="link" id="form_link"><br>
+      <p style="font-weight: bold;">Tags:</p>
+      <input class="form_input" type="text" name="tags" id="form_tags"><br>
+      <p style="font-weight: bold;">Content:</p>
+      <textarea class="form_input" name="content" id="form_content"></textarea><br><br>
+      <input type="button" value="Add" id="btn_add">
+      <input type="button" value="Reset" id="btn_reset">
+      <input type="button" value="Scrape" id="btn_scrape">
+      <span id="confirm">&#9989; New digital footprint added!</span>
+      <span id="error">&#10060; Error adding new digital footprint!</span>
+      <input type="button" value="Log-out" id="btn_logout">
+    </form>
+    
+    <form id="frm2">
+      <p id="name"></p>
+      Answer: <input class="form_input" type="password" name="answer" id="form_prove"><br><br>
+      <input type="button" value="Prove" id="btn_prove">
+      <span id="error_auth">&#10060; Error whilst authenticating!</span>
+    </form>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
+

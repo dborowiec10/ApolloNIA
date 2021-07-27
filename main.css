@@ -1,0 +1,100 @@
+body {
+  min-width:400px;
+  background-color: #222;
+	color: #ccc;
+}
+
+textarea, .form_input {
+  min-width: 98%;
+  max-width: 98%;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    
+  }
+button.current {
+box-shadow: 0 0 0 2px white,
+            0 0 0 4px black;
+}
+
+#btn_logout {
+  float: right;
+}
+
+.engineTitle {
+  align-self: center;
+}
+.blue {
+  color: #2A63BF;
+}
+
+.red {
+  color: #E34133;
+}
+.yellow {
+  color: #F3B828;
+}
+.green {
+  color: #32A556;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	display: inline-block;
+	border: none;
+	height: 100%;
+	background-color: #8D8D8D;
+	color: #FFF;
+	font-size: 16px;
+}
+
+input[type=text]:active,
+input[type=text]:focus,
+input[type=email]:active,
+input[type=email]:focus,
+textarea {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+   color: #C7C7C7;
+}
+
+:-moz-placeholder {
+   color: #C7C7C7;  
+}
+
+::-moz-placeholder {
+   color: #C7C7C7;  
+}
+
+:-ms-input-placeholder {  
+   color: #C7C7C7;  
+}
+
+p {
+	font-size: 14px;
+  margin: 10px 1px;
+  margin-bottom: 3px;
+}
+
+hr {
+	height: 1px;
+	background-color: #d8d8d8;
+	border: none;
+	width: 100%;
+	margin: 0px;
+}
