@@ -1,5 +1,5 @@
 # ApolloNIA
-### Chrome extension that enables adding new digital footprints to [Apollo](https://zeus.amirbolous.com/articles) directly from the browser
+### Chrome extension that enables adding new digital footprints to [Apollo](https://github.com/amirgamil/apollo) directly from the browser
 
 ![Demo](Capture.png)
 ## Usage:
@@ -21,7 +21,3 @@ Additionally, you will be able to customize the name displayed during log-in - f
 ## Authentication:
 ![Demo](Capture1.png)
 ApolloNIA will persist your logged-in status whilst the browser is open. You can log-out at any time by clicking on the "Log-out" button.
-
-
-
-
